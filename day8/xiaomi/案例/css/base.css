@@ -1,0 +1,45 @@
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?q3a5q3');
+    src:  url('../fonts/icomoon.eot?q3a5q3#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?q3a5q3') format('truetype'),
+      url('../fonts/icomoon.woff?q3a5q3') format('woff'),
+      url('../fonts/icomoon.svg?q3a5q3#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+/* 公共的版心样式 */
+.w{
+    width: 1226px;
+    margin: 0 auto;
+}
+
+/* 
+公共的浮动样式 */
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+/* 清除列表小圆点 */
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+em{
+    font-style: normal;
+}
+.icon{
+    font-family: icomoon;
+     
+}

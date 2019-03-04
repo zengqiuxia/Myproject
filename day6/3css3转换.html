@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css3转换</title>
+    <style>
+    div{
+        width: 100px;
+        height: 100px;
+        transition: all 3s;
+    }
+    .pingyi{
+        background-color: red;
+    }
+    a:hover .pingyi{
+        transform: translate(50px,0px);
+    }
+    .xuanzhuan{
+        background-color: aqua;
+    }
+    .xuanzhuan:hover{
+        transform: rotate(45deg);
+    }
+    .suofang{
+        background-color: rebeccapurple;
+    }
+    .suofang:hover{
+        transform: scale(1.5,1.5);
+    }
+    /* .niuqu{
+        background-color: blue;
+    }
+    .niuqu:hover{
+transform: 
+    }
+ */
+ .guodu{
+     background-color: chartreuse;
+     transition: all 5s;
+
+ }
+ .guodu:hover{
+     width: 700px;
+     height: 400px;
+ }
+
+
+    </style>
+</head>
+<body>
+    <div class="pingyi"></div>
+    <a href="#">hfdksjh</a>
+    <br>
+    <div class="xuanzhuan"></div>
+    <br>
+    <div class="suofang"></div>
+    <br>
+    <div class="niuqu"></div>
+    <br>
+    <div class="guodu"></div>
+</body>
+</html>

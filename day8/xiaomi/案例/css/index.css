@@ -1,0 +1,626 @@
+*{margin: 0;
+padding: 0;}
+ 
+/* 头部开始 */
+header{
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+    line-height: 40px;
+}
+
+header li a{
+font-size: 12px;
+color: #B0B0B0;
+}
+
+header li:hover a{
+    color: white;
+}
+ /* 消息通知 */
+header li button{
+    font-size: 12px;
+    color: #B0B0B0;
+    background-color: transparent;
+    border: none;
+}
+header li button:hover{
+    color: white;
+    /* 鼠标划上去的样式---变为文本 */
+    cursor: text;
+}
+/* 购物车 */
+header .shopping-car{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    margin-left: 15px;
+    position: relative;
+    background-color: #424242;
+}
+header .shopping-car:hover{
+    background-color: white;
+}
+
+header .shopping-car:hover a{
+    color: #ff6700;
+}
+/* 小竖线 */
+header .space{
+    width: 1px;
+    height: 10px;
+    background-color: #3D423D;
+    margin: 0 7px;
+}
+
+header .download-app{
+    position: relative;
+}
+
+header .download-app .code-box{
+    width: 124px;
+    height: auto;
+    background-color: white;
+    position: absolute;
+    left: -62px;
+    top:40px;
+    margin-left: 50%;
+    top: 40px;
+    padding: 18px 0 14px;
+    display: none;
+}
+
+header .download-app:hover .code-box{
+    display: block;
+}
+header .code-box .three-coner{
+     width: 0;
+     height: 0;
+     border-bottom: 10px solid white;
+     border-top: 10px solid transparent;
+     border-left: 10px solid transparent;
+     border-right: 10px solid transparent;
+     position: absolute;
+     top: -20px;
+     left: 50%;
+     margin-left: -10px;}
+header .code-box img{
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+
+}
+header .code-box span {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    /* line-height: 14px; */
+    line-height: 1em;
+}
+
+ .shopping-car .shopping-box{
+     width: 316px;
+     padding: 15px 0 0;
+     font-size: 14px;
+     line-height: 85px;
+     background-color: white;
+     position: absolute;
+     top: 40px;
+     left: -196px;
+     z-index: 1;
+     display: none
+
+    }
+    header .shopping-car:hover .shopping-box{
+        display: block;
+    }
+
+/* 头部结束 */
+
+
+
+
+
+.clear{
+    clear: both;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    /* background-color: lightgreen; */
+}
+nav .nav-list{
+    height: 100%;
+    /* background: pink; */
+    position: relative;
+}
+
+nav .nav-list .mi-logo{
+    display: block;
+    width: 55px;
+    height: 55px;
+    background: url(../image/logo-footer.png) no-repeat;
+
+    position: absolute;
+    left: 0px;
+    top:20px;
+    /* margin-right: 100px; */
+}
+nav .nav-list .listitem{
+    /* background: red; */
+    position: absolute;
+    left: 242px;
+    line-height: 100px;
+    
+
+}
+.nav-list .listitem li{
+    margin-right: 18px;
+}
+.listitem li a{
+    color: #333;
+}
+.listitem li a:hover{
+    color: #FF6700;
+}
+nav .nav-list .search-list{
+   /* width: 300px;
+   height: 52px; */
+    /* background: blue; */
+    position: absolute;
+    /* border: 1px solid #e0e0e0; */
+    right: 0;
+    top: 50%;
+    margin-top: -25px;
+}
+.nav-list .search-list input{
+width: 245px;
+height: 50px;
+/* border: none; */
+border: 1px solid #e0e0e0;
+padding: 0 10px;
+}
+.search-list input:focus{
+    outline: none;
+}
+.search-list input:focus +.keywords{
+    display: none;
+}
+.nav-list .search-list .search{
+width: 52px;
+height: 52px;
+border: 1px solid #e0e0e0;
+background: #fff;
+/* border: none; */
+padding: 0 6px;
+}
+nav .search-list .keywords{
+    position: absolute;
+    right: 74px;
+    top: 50%;
+    margin-top: -5px;
+}
+nav .keywords a{
+    font-size: 10px;
+    color: #757575;
+    background: #eee;
+    
+}
+nav .keywords a:hover{
+    background:#FF6700;
+    color: white; 
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top{
+    width: 100%;
+    height: 830px;
+    background-color: #fff;
+}
+.top aside{
+    width: 100%;
+    height: 460px;;
+    /* background-color: pink; */
+    position: relative;
+}
+.aside-list{
+    width: 234px;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    padding: 20px 0;
+    box-sizing: border-box;
+
+}
+.top .aside-list li{
+    display: block;
+    padding-left: 30px;
+    line-height: 40px;
+}
+.top .aside-list li:hover{
+    background:#FF6700;
+}
+
+.aside-list li a{
+color: white;
+font-size: 14px;
+}
+
+
+.top aside .aside-ads{
+    width: 100%;
+    height: 100%;
+    background-color: rebeccapurple;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+
+}
+.top .aside-ads img{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.top .aside-ads > a{
+    display: block;
+    width: 40px;
+    height: 70px;
+    background-color: transparent;
+    background: url(../image/icon-slides.png) no-repeat;
+    
+    
+}
+.top aside .arrow-left{
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    left: 234px;
+    border-radius: 0 5px 5px 0;
+    background-position: -83px 0;
+     
+}
+.top aside .arrow-right{
+    background-color: green;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    right: 0;
+    border-radius: 5px 0 0 5px;
+    background-position: -123px 0;
+}
+
+.top .point{
+    /* background-color: rebeccapurple; */
+position: absolute;
+    right: 20px;
+   bottom: 20px;
+   padding: 10px;
+}
+ 
+
+
+.top .point li{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    background-color:  rgba(255, 255, 255, 0.4);
+    margin: 0 5px;
+     
+}
+.top .point li:hover{
+    background-color: #fff;
+    background-color:  #333;
+    cursor: pointer;
+}
+.top .point .active{
+    background-color: #fff;
+    background-color:  #333;
+}
+
+
+.top .flex-box{
+    width: 100%;
+    height: 170px;
+    background-color: pink;
+    margin-top: 14px;
+    /* 设定弹性盒子 */
+    display: flex;
+    display: -webkit-flex;
+    /* 指定弹性盒子中子元素的 */
+    justify-content: space-between;
+}
+.top .flex-box .flex-nav{
+    width: 234px;
+    height: 100%;
+    background-color: #5F5750;
+    padding: 9px;
+    box-sizing: border-box;
+}
+.top .flex-nav >ul{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    display: -webkit-flex;
+    
+}
+top .flex-nav ul li{
+    position: relative;
+}
+.top .flex-nav .column-space::after{
+    content: "";
+    width: 1px;
+    height:70px;
+    background-color: white;
+    position: absolute;
+    top: 6px;
+    right: 0;
+}
+
+
+
+
+.top .flex-nav .nav-top li{
+border-bottom: 1px solid rebeccapurple;
+}
+
+
+.top .flex-nav li{
+    display: block;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    padding: 18px 0;
+   
+    box-sizing: border-box;
+
+}
+.flex-nav li a{
+    color: #CDCAC8;;
+}
+.flex-nav li a i{
+display: block
+}
+
+
+.top .flex-nav .nav-top{
+    /* background-color: rebeccapurple; */
+
+
+}
+.top .flex-nav .nav-bottom{
+    /* background-color: green; */
+}
+
+.top .flex-box img{
+    width: 316px;
+    height: 100%;
+}
+
+
+
+.ximi9{
+    width: 100%;
+    height: 120px;
+    margin:28px 0 42px;
+}
+ .ximi9 img{
+    width: 100%;
+    height: 120px;   
+}
+
+
+
+
+
+.body{
+    width: 100%;
+    height: auto;
+    background-color: #F5F5F5;
+}
+
+.body .phone{
+    width: 100%;
+    height: 698px;
+    /* background-color: pink; */
+    /* 解决上下盒子外边距合并问题 */
+    overflow: hidden;
+
+}
+.body  .title{
+    width: 100%;
+    height:58px; ;
+    /* background-color: yellow; */
+    margin-top: 24px;
+    position: relative;
+    
+}
+.body .title h2{
+    width: 100%;
+    height: 100%;
+    line-height: 58px;
+    font-weight: normal;
+}
+
+.body .title > div{
+    display: inline-block;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.body .title a{
+    display: block;
+    width: 100px;
+    height: 30px;
+    color: #424242;
+    font-size: 16px;
+    
+    position: absolute;
+    top: 22px;
+    right: 0px;
+    
+}
+.body .title a:hover{
+    color: #ff6700;
+}
+.body .title a i:hover{
+    background-color: #ff6700;
+}
+
+.body .title a i{
+
+    /* font: normal normal 12px/12px icomoon; */
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    font-family: icomoon;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 58px;
+    /* padding: 4px; */
+    border-radius: 14px;
+    background-color: #b0b0b0;
+    color: white;
+
+}
+
+
+
+ 
+
+
+.body  .phone-products{
+width: 100%;
+height:613px; 
+/* background-color: rebeccapurple; */
+display: flex;
+display: -webkit-flex;
+/* 指定弹性盒子内部子元素的对齐方式，两边紧贴弹性盒子的两边 */
+justify-content:space-between;
+}
+
+.phone-products > div{
+    width: 234px;
+    height: 100%;
+    /* background-color: green; */
+}
+ .phone-products div:first-of-type img{
+    width: 234px;
+    height: 100%;
+}
+
+.body .phone-products .phone-column{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    
+}
+.shadow:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+}
+
+.body  .products{
+  width: 234px;
+  height: 300px;
+  background-color: red;  
+}
+
+
+.body .electric{
+    width: 100%;
+    height: 698px;
+    background-color: pink;
+}
+
+.body .electric-products{
+    width: 100%;
+    height: 613px;
+    background-color: lightgreen;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+.bottom{
+width: 100%;
+height: 274px;
+background-color: #fff;
+}
+footer{
+    width: 100%;
+    height: 172px;
+    background-color: #fafafa;
+}
+
+
+.fixed-bar{
+    width: 82px;
+    height: 366px;
+    background-color: purple;
+    position: fixed;
+    top: 222px;
+    right: 0px;
+
+}
+

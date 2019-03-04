@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    /* @keyframes first{
+        0%{
+            transform: translateX(0);
+        }
+        50%{
+transform: translateX(500px);
+        }
+        100%{
+transform: translateX(0px);
+        }
+    } */
+    .fu{
+        width: 600px;
+        height: 600px;
+        background-color: aqua;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    .a{
+        width: 100px;
+        height: 200px;
+        background-color: rebeccapurple;
+        /* animation: first 2s infinite; */
+        position: absolute;
+        display: none;
+
+        
+    }
+    .b{
+        width: 100px;
+        height: 100px;
+        background-color: rgba(70%, 30%, 40%, .5);
+       
+        z-index: 1;
+        position: absolute;
+        top: 100px;
+        
+    }
+    .b:hover+.a {
+        /* animation: first 2s infinite; */
+        display: block;
+    }
+  
+    </style>
+</head>
+
+
+<body>
+    
+<div class="fu"> 
+    <div class="b"></div>
+    <div class="a"></div>
+</div>
+     
+</body>
+</html>

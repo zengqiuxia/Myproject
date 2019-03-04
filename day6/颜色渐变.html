@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    div{
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+    }
+    div:first-of-type{
+        background: linear-gradient(red,green,blue);
+    }
+    div:nth-of-type(2){
+        background: linear-gradient(to right,black,gray,white);
+    }
+    div:nth-of-type(3){
+        background: linear-gradient(to right top,yellow,green);
+    }
+    div:nth-of-type(4){
+        border-radius: 100px;
+        background: linear-gradient(red,white);
+    }
+
+    div:nth-of-type(5){
+        background-color: pink;
+        border-radius: 150px;
+    }
+
+.a{
+    width: 400px;
+    height: 400px;
+    background-color:pink;
+}
+
+    </style>
+</head>
+<body>
+    <section>
+        <div></div>
+        <div>从左到右</div>
+        <div>对角线</div>
+        <div>盒子圆形</div>
+        <div></div>
+    </section>
+
+    <div class="a">
+        <div class="a1"></div>
+        <div class="a2"></div>
+    </div>
+</body>
+</html>
